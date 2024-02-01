@@ -1,0 +1,6 @@
+[
+  "stackAlloc",
+  "stackSave",
+  "stackRestore",
+  "UTF8ToString"
+]

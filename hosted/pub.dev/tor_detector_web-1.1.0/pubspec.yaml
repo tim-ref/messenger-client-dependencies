@@ -1,0 +1,19 @@
+name: tor_detector_web
+description: Identify TOR users and make you application ready for anonymous users.
+version: 1.1.0
+homepage: https://gitlab.com/TheOneWithTheBraid/tor_detector_web
+repository: https://gitlab.com/TheOneWithTheBraid/tor_detector_web.git
+issue_tracker: https://gitlab.com/TheOneWithTheBraid/tor_detector_web/-/issues
+
+environment:
+  sdk: '>=2.12.2 <3.0.0'
+
+dependencies:
+   js: ^0.6.3
+
+dev_dependencies:
+  build_runner: ^1.6.2
+  build_web_compilers: ^2.12.0
+  import_sorter: ^4.6.0
+  lints: ^1.0.0
+  test: ^1.16.0

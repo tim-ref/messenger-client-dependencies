@@ -1,0 +1,6 @@
+include: package:pedantic/analysis_options.yaml
+
+linter:
+  rules:
+    # this package is not a real flutter plugin
+    avoid_web_libraries_in_flutter: false
